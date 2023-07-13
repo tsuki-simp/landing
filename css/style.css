@@ -1,61 +1,15 @@
-/* Links */
-a:link,
-a:visited {
-  color: #0400ff;
-  text-decoration: none;
-}
+a:link, a:visited { color: #0400ff; text-decoration: none; }
 
-a:hover,
-a:active {
-  color: #ff0000;
-  text-decoration: underline;
-}
+a:hover, a:active { color: #ff0000; text-decoration: underline; }
 
-/* Body and Background */
-html,
-body {
-  background-color: #211f25;
-  font-family: "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier", "New", "monospace", "serif";
-  image-rendering: -webkit-optimize-contrast;
-}
+html, body { background-color: #211f25; font-family: "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier", "New", "monospace", "serif"; image-rendering: -webkit-optimize-contrast; }
 
-/* Paragraphs and Lists */
-p,
-ul,
-li {
-  color: #ffffff;
-  text-align: center;
-  font-size: 18px;
-  line-height: 1.4;
-  text-shadow: #211f25 1px 0 10px;
-}
+p, ul, li { color: #ffffff; text-align: center; font-size: 18px; line-height: 1.4; text-shadow: #211f25 1px 0 10px; }
 
-ul {
-  list-style-type: square;
-  list-style-position: inside;
-}
+ul { list-style-type: square; list-style-position: inside; }
 
-/* Specific Elements */
-.neptune {
-  height: 600px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
+.neptune { height: 600px; position: absolute; right: 0; bottom: 0; z-index: -1; }
 
-.logo {
-  height: 250px;
-  display: block;
-  margin: 0 auto;
-}
+.logo { height: 250px; display: block; margin: 0 auto; }
 
-.col {
-  padding: 2em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 452px;
-  word-wrap: break-word;
-}
+.col { padding: 2em; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 452px; word-wrap: break-word; }
