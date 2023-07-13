@@ -1,4 +1,4 @@
-/* Links */
+/* Global Styles */
 a:link,
 a:visited {
   color: #0400ff;
@@ -11,15 +11,14 @@ a:active {
   text-decoration: underline;
 }
 
-/* Body and Background */
 html,
 body {
   background-color: #211f25;
-  font-family: "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier", "New", "monospace", "serif";
+  font-family: "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono", "Courier", "New", "monospace", "serif";
   image-rendering: -webkit-optimize-contrast;
 }
 
-/* Paragraphs and Lists */
 p,
 ul,
 li {
@@ -36,6 +35,10 @@ ul {
 }
 
 /* Specific Elements */
+/* Add a comment to separate sections */
+/*------------------------------------*/
+
+/* Apply styles for the .neptune class */
 .neptune {
   height: 600px;
   position: absolute;
@@ -44,18 +47,21 @@ ul {
   z-index: -1;
 }
 
+/* Apply styles for the .logo class */
 .logo {
   height: 250px;
   display: block;
   margin: 0 auto;
 }
 
+/* Apply styles for the .col class */
 .col {
   padding: 2em;
-  position: absolute;
+  position: relative; /* Changed absolute positioning to relative */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 90%; /* Use percentage width for responsiveness */
   max-width: 452px;
   word-wrap: break-word;
 }
