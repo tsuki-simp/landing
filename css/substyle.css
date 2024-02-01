@@ -1,0 +1,9 @@
+a:link, a:visited { color: #0400ff; text-decoration: none; }
+
+a:hover, a:active { color: #ff0000; text-decoration: underline; }
+
+html, body { background-color: #211f25; font-family: "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier", "New", "monospace", "serif"; image-rendering: -webkit-optimize-contrast; }
+
+p, ul, li { color: #ffffff; text-align: center; font-size: 18px; line-height: 1.4; text-shadow: #211f25 1px 0 10px; }
+
+ul { list-style-type: square; list-style-position: inside; }
