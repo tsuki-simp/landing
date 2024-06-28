@@ -8,7 +8,7 @@ p, ul, li { color: #ffffff; text-align: center; font-size: 18px; line-height: 1.
 
 ul { list-style-type: square; list-style-position: inside; }
 
-.neptune { height: 600px; position: absolute; right: 0; bottom: 0; z-index: -1; }
+.borgar { height: 600px; position: absolute; right: 0; bottom: 0; z-index: 1; }
 
 .logo { height: 250px; display: block; margin: 0 auto; }
 
